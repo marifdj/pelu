@@ -1,0 +1,117 @@
+/* REDES */
+
+.redes {
+    background-color: rgb(252, 209, 216);
+    bottom: 0;
+    height: 50px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.social img {
+    height: 6.5vh; 
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    font-size: 0.7rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background: linear-gradient(#71bdb1,#61a399);
+    height: 50vh;
+    padding: 10px;
+}
+
+.iconos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.icono img {
+    height: 50px;
+    width: 50px; 
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.texto-detalle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* REDES */
+
+    .redes {
+        height: 8vh;
+    }
+    .social img {
+        height: 6.5vh; 
+    }
+      
+    .social.insta img:hover {
+        background-color: rgb(252, 221, 164);
+        border-radius: 10mm; 
+    }
+      
+    .social.linke img:hover {
+        background-color: rgb(170, 170, 241);
+        border-radius: 10mm; 
+    }
+      
+    .social.youtu img:hover {
+        background-color: rgb(248, 174, 174);
+        border-radius: 10mm; 
+    }
+        
+    .social.face img:hover {
+        background-color: rgb(170, 170, 250);
+        border-radius: 10mm; 
+    }
+    /* FOOTER */
+
+    footer.enFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        height: 30vh;
+    }
+  
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        height: 100px; 
+    }
+    
+    .detalles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 12px; 
+    } 
+
+    .detalle{
+        text-align: center; 
+    }
+}

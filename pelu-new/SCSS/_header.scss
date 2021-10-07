@@ -1,0 +1,45 @@
+/* HEADER */
+
+.navbar {
+    background-color: rgb(255, 242, 244); 
+}
+
+.navbar-nav {
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+}
+   
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+}
+    
+.navbar-light .navbar-toggler {
+    border-color: grey; 
+}
+    
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(173, 173, 173);
+}
+    
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(173, 173, 173);
+}
+    
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(92, 182, 162);
+    border-bottom: 3px solid white;
+}
+  
+.navbar-collapse {
+    justify-content: flex-end; 
+}
+
+.navbar-nav {
+    align-items: center; 
+}
